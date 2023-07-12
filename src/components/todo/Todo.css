@@ -1,0 +1,31 @@
+.container_todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 50px ;
+}
+.container_todo > input{
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.container_todo > button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    transition: all 500ms ease;
+}
+.container_todo>button:hover{
+    color: #04AA6D;
+    background-color: white;
+    border: 1px solid #04AA6D;
+    transform: scale(0.97);
+}
